@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:mobile_2/latihan_11_mei/bottom_nav_bar.dart';
+import 'package:mobile_2/latihan_16_mei/home.dart';
+import 'package:mobile_2/latihan_18_mei/list_kampus.dart';
+import 'package:mobile_2/latihan_18_mei/page_list_kampus.dart';
+import 'package:mobile_2/latihan_maps/page_home.dart';
 import 'package:mobile_2/screen_page/welcome_page.dart';
 
 void main() {
@@ -33,7 +37,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: PageBottomNavigationBar(),
+      home: KampusList(),
       debugShowCheckedModeBanner: false,
       //home: const HomePage(title: 'Flutter Demo Home Page'),
     );
